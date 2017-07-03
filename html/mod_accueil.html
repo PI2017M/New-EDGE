@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../ressources/skin/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="../ressources/skin/css/bootstrap.css">
+    <script type="text/javascript" src="../ressources/skin/js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="../ressources/skin/js/bootstrap.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- fin Bootstrap -->
+
+    <link rel="stylesheet" href="/ressources/Fonts/font.css">
+    <link rel="stylesheet" href="../ressources/main.css">
+    <link rel="icon" type="image/png" href="../ressources/img/rocket.png" />
+
+    <title>NewEdge</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+
+<body>
+
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                    <a class="navbar-brand" href="#accueil"><img class="logo" src="./ressources/img/rocket.png" alt=""><div class="title">NEW EDGE</div></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#jeu">Le Jeu</a></li>
+                        <li><a href="#dev">Développeurs</a></li>
+
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li role="separator" class="divider"></li>
+                        <li><a data-toggle="modal" data-target="#myModal" href="">Connexion</a></li>
+                        <li><a href="/req_afficher_formulaire_inscription">Inscription </a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </div>
+
+    <div class="container">
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Connectez vous</h4>
+
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-area2">
+                            <p class="erreur">{erreur}</p>
+
+                            <form action="/req_identifier" method="GET">
+
+                                <label for="inputPseudo" class="sr-only">Pseudo</label>
+                                <input type="text" id="inputPseudo" class="form-control" name="pseudo" placeholder="Pseudo" required>
+
+                                <br>
+
+                                <label for="inputPassword" class="sr-only">Mot de passe</label>
+                                <input type="password" id="inputPassword" class="form-control" name="mdp" placeholder="Mot de passe" required>
+                                <br>
+
+                                <button type="submit" class="btn btn-primary pull-right">Se connecter</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fin Modal -->
+
+        <div class="corp">
+
+            <div class="col-md-12" id="acceuil">
+                <img class="logo_page" src="./ressources/img/rocket.png" alt="">
+                <h2 class="title_page">New Edge</h2>
+                <em>“Serez-vous celui qui réussira à élever le plus de batiments - l'oeuvre de toute une vie !”</em>
+            </div>
+            <br>
+            <div class="col-md-12" id="jeu">
+                <h2>Le Jeu</h2>
+                <p>
+                    Nous créons un remake du jeu de plateau "Les bâtisseurs du moyen-âge". Nous nous trouvons dans un univers futuristes. Le jeu est un jeu de cartes multijoueurs composé de deux types de cartes (ouvriers et bâtiments) ainsi que des pièces qui servira de monnaie. Il faut ainsi construire des bâtiments en envoyant travailler son ou ses ouvriers. Lorqu'un bâtiment est terminé nous gagnons des points des points de victoire. Un joueur gagne la partie lorqu'il accumule 17 points de victoire.
+                </p>
+                <p>
+                    Les joueurs doivent accumuler le plus de points de victoire en construisant des bâtiments. Une monnaie est implémentée dans le jeu, et elle permettera de se procurer en ressources pour les cartes Ouvriers.
+                </p>
+            </div>
+            <br>
+            <div class="col-md-12" id="dev">
+                <h2>Les Développeurs</h2>
+                <div class="col-md-6">
+                    Julie AGOPIAN
+                </div>
+                <div class="col-md-6">
+                    Yassine BOUCETTA
+                </div>
+                <div class="col-md-6">
+                    Paul SIMON
+                </div>
+                <div class="col-md-6">
+                    Baptiste TEXIER
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

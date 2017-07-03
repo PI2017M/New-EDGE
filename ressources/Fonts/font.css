@@ -1,0 +1,24 @@
+@font-face {
+  font-family: equestriaBoldItalic;
+  src: url(./equestriabolditalic.otf);
+}
+
+@font-face {
+  font-family: equestria;
+  src: url(./equestria.otf);
+}
+
+@font-face {
+  font-family: equestriaItalic;
+  src: url(./equestriaitalic.otf);
+}
+
+@font-face {
+  font-family: equestriaBold;
+  src: url(./equestriabold.otf);
+}
+
+@font-face {
+  font-family: robotech_gp;
+  src: url(./robotech_gp.ttf);
+}

@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Lost in Wild";
+    src: url('LostinWild.ttf');
+    src: url('LostinWild.otf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v7/zhcz-_WihjSQC0oHJ9TCYAzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+}

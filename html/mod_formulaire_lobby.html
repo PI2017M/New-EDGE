@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="../ressources/skin/css/bootstrap-theme.css">
+  <link rel="stylesheet" href="../ressources/skin/css/bootstrap.css">
+  <script type="text/javascript" src="../ressources/skin/js/jquery-3.1.1.js"></script>
+  <script type="text/javascript" src="../ressources/skin/js/bootstrap.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- fin Bootstrap -->
+
+  <link rel="stylesheet" href="/ressources/Fonts/font.css">
+  <link rel="icon" type="image/png" href="../ressources/img/rocket.png" />
+  <link rel="stylesheet" href="../ressources/main.css">
+  <title>{pseudo}</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+
+  <div class="container">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+          <a class="navbar-brand" href="#accueil"><img class="logo" src="./ressources/img/rocket.png" alt=""><div class="title">NEW EDGE</div></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img class="avatar" src="{avatar}" alt=""> {pseudo}<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Profil</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="/req_deconnexion?pseudo={pseudo}">Déconnexion</a></li>
+
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+  </div>
+
+  <div class="container">
+
+    <div class="main2">
+
+      <div class="col-md-3"></div>
+
+      <div class="col-md-6">
+        <div class="form-area">
+          <form action="/req_creer_lobby?pseudo={pseudo}" method="GET" role="form">
+            <br style="clear:both">
+            <h3 style="margin-bottom: 25px; text-align: center;">Formulaire de création de lobby</h3>
+            <h5 class="erreur">{erreur}</h5>
+            <div class="form-group">
+              <label>Nom du lobby : </label>
+              <input type="text" class="form-control" name="lobby" placeholder="Lobby" value="" required>
+            </div>
+            <div class="form-group">
+              <label>Nombre de joueurs : </label>
+              <br>
+              <input type="radio" name="nbJoueur" value="2" checked="checked"> 2 Joueurs
+              <br/>
+              <input type="radio" name="nbJoueur" value="3"> 3 Joueurs
+              <br/>
+              <input type="radio" name="nbJoueur" value="4"> 4 Joueurs
+              <br/>
+            </div>
+            <div class="form-group">
+              <label>Type de lobby : </label>
+              <br>
+              <input type="radio" name="style" value="public" onclick="toto()" checked="checked"> Public
+              <br/>
+              <input type="radio" name="style" value="private" onclick="toto()"> Privé
+              <br>
+            </div>
+            <div id="toto" class="form-group">
+
+            </div>
+
+            <button class="btn btn-primary pull-right" name="pseudo" value="{pseudo}">Créer lobby</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="col-md-3"></div>
+    </div>
+  </div>
+</body>
+
+</html>
+<script type="text/javascript">
+  var toto = function() {
+    if ((document.querySelector('input[name="style"]:checked').value) == "private") {
+      document.getElementById('toto').innerHTML += '<label>Mot de passe : </label><input type="password" class="form-control" name="mdp" placeholder="Mot de passe" value="" required>';
+    } else {
+      document.getElementById('toto').innerHTML = "";
+    }
+  }
+</script>

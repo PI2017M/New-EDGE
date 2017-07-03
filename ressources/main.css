@@ -1,0 +1,161 @@
+body {
+    /*font-family: Montserrat;*/
+    background: url('./img/Space.png') no-repeat center center fixed #283d48;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.corp, .corp_crea {
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 20px;
+    font-family: sansation;
+}
+
+.main {
+    color: aliceblue;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 20px;
+}
+
+.navbar {
+    opacity: 0.9;
+    font-family: sansation;
+}
+
+.navbar a:hover{
+  color: #f26c4f;
+}
+
+.form-area {
+    background-color: #FAFAFA;
+    padding: 10px 40px 60px;
+    margin: 10px 0px 60px;
+    border: 1px solid GREY;
+    border-radius: 10px;
+}
+
+.form-area2 {
+    padding: 10px 0px 50px;
+}
+
+.erreur {
+    color: darkred;
+}
+
+.form {
+    color: black;
+}
+
+.pioche_bat li, .pioche_ouv li {
+    display: inline;
+    list-style: none;
+}
+
+.pioche_bat img, .pioche_ouv img {
+  height: 19%;
+  width: 19%;
+  margin-right: 1px;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.pioche {
+  margin-bottom: 50px;
+}
+
+.main_bat li, .main_ouv li {
+  display: inline;
+  list-style: none;
+  margin-right: 20px;
+}
+
+.main_bat img{
+  width: 10.5%;
+  height: 10.5%;
+  margin-top: -13.7%;
+}
+
+.main_bat_passif img{
+  width: 17%;
+  height: 17%;
+}
+
+.main_ouv img {
+  width: 13%;
+  height: 13%;
+}
+
+.mains li{
+  list-style: none;
+  display: inline;
+}
+
+.bouton {
+  height: 15%;
+  width: 15%;
+}
+
+.bouton img {
+  height: auto;
+  width: auto;
+}
+
+table, th ,td {
+  border: 2px solid aliceblue;
+}
+
+.good{
+  color: green;
+}
+
+.bad {
+  color: red;
+}
+
+.avatar {
+  height: 40px;
+  width: 40px;
+  margin-bottom: -40px;
+  margin-top: -40px;
+  border-radius: 10%;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  margin-top: -10px;
+  margin-bottom: -33px;
+}
+
+.title {
+  font-family: robotech_gp;
+  font-size: 25px;
+  margin-left: 47px;
+  color: #f26c4f;
+}
+
+.title_page {
+  font-family: robotech_gp;
+  font-size: 400%;
+  color: #f26c4f;
+  margin-top: -5px;
+}
+
+.logo_page {
+  margin-top: 15px;
+  height: 35%;
+  width: 35%;
+}
+
+.corp_crea {
+  margin-bottom: 20px;
+}

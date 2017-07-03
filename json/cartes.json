@@ -1,0 +1,724 @@
+{
+  "ouvrier": [
+    {
+      "pierre": 0,
+      "bois": 1,
+      "savoir": 0,
+      "tuile": 1,
+      "id": 0,
+      "type": 0,
+      "ecu": 2
+    },
+    {
+      "pierre": 9,
+      "bois": 9,
+      "savoir": 9,
+      "tuile": 9,
+      "type": 0,
+      "id": 1,
+      "ecu": 2
+    },
+    {
+      "pierre": 1,
+      "bois": 0,
+      "savoir": 1,
+      "tuile": 0,
+      "id": 2,
+      "type": 0,
+      "ecu": 2
+    },
+    {
+      "pierre": 1,
+      "bois": 0,
+      "savoir": 0,
+      "tuile": 1,
+      "id": 3,
+      "type": 0,
+      "ecu": 2
+    },
+    {
+      "pierre": 0,
+      "bois": 0,
+      "savoir": 1,
+      "tuile": 1,
+      "id": 4,
+      "type": 0,
+      "ecu": 2
+    },
+    {
+      "pierre": 0,
+      "bois": 1,
+      "savoir": 1,
+      "tuile": 0,
+      "id": 5,
+      "type": 0,
+      "ecu": 2
+    },
+    {
+      "pierre": 0,
+      "bois": 0,
+      "savoir": 2,
+      "tuile": 1,
+      "id": 6,
+      "type": 1,
+      "ecu": 3
+    },
+    {
+      "pierre": 1,
+      "bois": 0,
+      "savoir": 2,
+      "tuile": 0,
+      "id": 7,
+      "type": 1,
+      "ecu": 3
+    },
+    {
+      "pierre": 0,
+      "bois": 1,
+      "savoir": 2,
+      "tuile": 0,
+      "id": 8,
+      "type": 1,
+      "ecu": 3
+    },
+    {
+      "pierre": 1,
+      "bois": 2,
+      "savoir": 0,
+      "tuile": 0,
+      "id": 9,
+      "type": 1,
+      "ecu": 3
+    },
+    {
+      "pierre": 0,
+      "bois": 2,
+      "savoir": 0,
+      "tuile": 1,
+      "id": 10,
+      "type": 1,
+      "ecu": 3
+    },
+    {
+      "pierre": 0,
+      "bois": 2,
+      "savoir": 1,
+      "tuile": 0,
+      "id": 11,
+      "type": 1,
+      "ecu": 3
+    },
+    {
+      "pierre": 1,
+      "bois": 0,
+      "savoir": 0,
+      "tuile": 2,
+      "id": 12,
+      "type": 1,
+      "ecu": 3
+    },
+    {
+      "pierre": 0,
+      "bois": 1,
+      "savoir": 0,
+      "tuile": 2,
+      "id": 13,
+      "type": 1,
+      "ecu": 3
+    },
+    {
+      "pierre": 2,
+      "bois": 0,
+      "savoir": 1,
+      "tuile": 0,
+      "id": 14,
+      "type": 1,
+      "ecu": 3
+    },
+    {
+      "pierre": 2,
+      "bois": 1,
+      "savoir": 0,
+      "tuile": 0,
+      "id": 15,
+      "type": 1,
+      "ecu": 3
+    },
+    {
+      "pierre": 0,
+      "bois": 0,
+      "savoir": 1,
+      "tuile": 2,
+      "id": 16,
+      "type": 1,
+      "ecu": 3
+    },
+    {
+      "pierre": 2,
+      "bois": 0,
+      "savoir": 0,
+      "tuile": 1,
+      "id": 17,
+      "type": 1,
+      "ecu": 3
+    },
+    {
+      "pierre": 0,
+      "bois": 2,
+      "savoir": 3,
+      "tuile": 0,
+      "id": 18,
+      "type": 2,
+      "ecu": 4
+    },
+    {
+      "pierre": 0,
+      "bois": 0,
+      "savoir": 3,
+      "tuile": 2,
+      "id": 19,
+      "type": 2,
+      "ecu": 4
+    },
+    {
+      "pierre": 2,
+      "bois": 3,
+      "savoir": 0,
+      "tuile": 0,
+      "id": 20,
+      "type": 2,
+      "ecu": 4
+    },
+    {
+      "pierre": 0,
+      "bois": 3,
+      "savoir": 2,
+      "tuile": 0,
+      "id": 21,
+      "type": 2,
+      "ecu": 4
+    },
+    {
+      "pierre": 2,
+      "bois": 0,
+      "savoir": 0,
+      "tuile": 3,
+      "id": 22,
+      "type": 2,
+      "ecu": 4
+    },
+    {
+      "pierre": 3,
+      "bois": 2,
+      "savoir": 0,
+      "tuile": 0,
+      "id": 23,
+      "type": 2,
+      "ecu": 4
+    },
+    {
+      "pierre": 0,
+      "bois": 0,
+      "savoir": 2,
+      "tuile": 3,
+      "id": 24,
+      "type": 2,
+      "ecu": 4
+    },
+    {
+      "pierre": 3,
+      "bois": 0,
+      "savoir": 0,
+      "tuile": 2,
+      "id": 25,
+      "type": 2,
+      "ecu": 4
+    },
+    {
+      "pierre": 1,
+      "bois": 0,
+      "savoir": 3,
+      "tuile": 0,
+      "id": 26,
+      "type": 3,
+      "ecu": 5
+    },
+    {
+      "pierre": 1,
+      "bois": 1,
+      "savoir": 1,
+      "tuile": 1,
+      "id": 27,
+      "type": 3,
+      "ecu": 5
+    },
+    {
+      "pierre": 1,
+      "bois": 1,
+      "savoir": 1,
+      "tuile": 1,
+      "id": 28,
+      "type": 3,
+      "ecu": 5
+    },
+    {
+      "pierre": 0,
+      "bois": 3,
+      "savoir": 0,
+      "tuile": 1,
+      "id": 29,
+      "type": 3,
+      "ecu": 5
+    },
+    {
+      "pierre": 1,
+      "bois": 0,
+      "savoir": 2,
+      "tuile": 1,
+      "id": 30,
+      "type": 3,
+      "ecu": 5
+    },
+    {
+      "pierre": 2,
+      "bois": 0,
+      "savoir": 2,
+      "tuile": 0,
+      "id": 31,
+      "type": 3,
+      "ecu": 5
+    },
+    {
+      "pierre": 2,
+      "bois": 2,
+      "savoir": 0,
+      "tuile": 0,
+      "id": 32,
+      "type": 3,
+      "ecu": 5
+    },
+    {
+      "pierre": 2,
+      "bois": 1,
+      "savoir": 1,
+      "tuile": 0,
+      "id": 33,
+      "type": 3,
+      "ecu": 5
+    },
+    {
+      "pierre": 0,
+      "bois": 2,
+      "savoir": 2,
+      "tuile": 0,
+      "id": 34,
+      "type": 3,
+      "ecu": 5
+    },
+    {
+      "pierre": 3,
+      "bois": 1,
+      "savoir": 0,
+      "tuile": 0,
+      "id": 35,
+      "type": 3,
+      "ecu": 5
+    },
+    {
+      "pierre": 2,
+      "bois": 0,
+      "savoir": 0,
+      "tuile": 2,
+      "id": 36,
+      "type": 3,
+      "ecu": 5
+    },
+    {
+      "pierre": 0,
+      "bois": 2,
+      "savoir": 0,
+      "tuile": 2,
+      "id": 37,
+      "type": 3,
+      "ecu": 5
+    },
+    {
+      "pierre": 0,
+      "bois": 0,
+      "savoir": 2,
+      "tuile": 2,
+      "id": 38,
+      "type": 3,
+      "ecu": 5
+    },
+    {
+      "pierre": 1,
+      "bois": 2,
+      "savoir": 0,
+      "tuile": 1,
+      "id": 39,
+      "type": 3,
+      "ecu": 5
+    },
+    {
+      "pierre": 0,
+      "bois": 0,
+      "savoir": 1,
+      "tuile": 3,
+      "id": 40,
+      "type": 3,
+      "ecu": 5
+    },
+    {
+      "pierre": 0,
+      "bois": 1,
+      "savoir": 1,
+      "tuile": 2,
+      "id": 41,
+      "type": 3,
+      "ecu": 5
+    }
+  ],
+  "batiment": [
+    {
+      "gain": 12,
+      "pv": 18,
+      "pierre": 0,
+      "bois": 2,
+      "savoir": 2,
+      "tuile": 2,
+      "type": 0,
+      "id": 1
+    },
+    {
+      "gain": 6,
+      "pv": 1,
+      "pierre": 0,
+      "bois": 1,
+      "savoir": 0,
+      "tuile": 2,
+      "type": 0,
+      "id": 2
+    },
+    {
+      "gain": 18,
+      "pv": 5,
+      "pierre": 3,
+      "bois": 2,
+      "savoir": 2,
+      "tuile": 3,
+      "type": 0,
+      "id": 3
+    },
+    {
+      "gain": 20,
+      "pv": 8,
+      "pierre": 5,
+      "bois": 4,
+      "savoir": 4,
+      "tuile": 4,
+      "type": 0,
+      "id": 4
+    },
+    {
+      "gain": 20,
+      "pv": 6,
+      "pierre": 5,
+      "bois": 2,
+      "savoir": 5,
+      "tuile": 0,
+      "type": 0,
+      "id": 5
+    },
+    {
+      "gain": 18,
+      "pv": 5,
+      "pierre": 4,
+      "bois": 3,
+      "savoir": 2,
+      "tuile": 1,
+      "type": 0,
+      "id": 6
+    },
+    {
+      "gain": 6,
+      "pv": 1,
+      "pierre": 0,
+      "bois": 2,
+      "savoir": 1,
+      "tuile": 0,
+      "type": 0,
+      "id": 7
+    },
+    {
+      "gain": 14,
+      "pv": 3,
+      "pierre": 0,
+      "bois": 3,
+      "savoir": 1,
+      "tuile": 3,
+      "type": 0,
+      "id": 8
+    },
+    {
+      "gain": 16,
+      "pv": 4,
+      "pierre": 1,
+      "bois": 3,
+      "savoir": 3,
+      "tuile": 1,
+      "type": 0,
+      "id": 9
+    },
+    {
+      "gain": 18,
+      "pv": 5,
+      "pierre": 4,
+      "bois": 2,
+      "savoir": 4,
+      "tuile": 0,
+      "type": 0,
+      "id": 10
+    },
+    {
+      "gain": 16,
+      "pv": 4,
+      "pierre": 3,
+      "bois": 1,
+      "savoir": 2,
+      "tuile": 2,
+      "type": 0,
+      "id": 11
+    },
+    {
+      "gain": 16,
+      "pv": 4,
+      "pierre": 2,
+      "bois": 2,
+      "savoir": 2,
+      "tuile": 2,
+      "type": 0,
+      "id": 12
+    },
+    {
+      "gain": 14,
+      "pv": 3,
+      "pierre": 0,
+      "bois": 2,
+      "savoir": 3,
+      "tuile": 2,
+      "type": 0,
+      "id": 13
+    },
+    {
+      "gain": 16,
+      "pv": 4,
+      "pierre": 1,
+      "bois": 3,
+      "savoir": 1,
+      "tuile": 3,
+      "type": 0,
+      "id": 14
+    },
+    {
+      "gain": 6,
+      "pv": 1,
+      "pierre": 1,
+      "bois": 0,
+      "savoir": 0,
+      "tuile": 2,
+      "type": 0,
+      "id": 15
+    },
+    {
+      "gain": 16,
+      "pv": 4,
+      "pierre": 4,
+      "bois": 2,
+      "savoir": 0,
+      "tuile": 2,
+      "type": 0,
+      "id": 16
+    },
+    {
+      "gain": 6,
+      "pv": 1,
+      "pierre": 0,
+      "bois": 1,
+      "savoir": 2,
+      "tuile": 0,
+      "type": 0,
+      "id": 17
+    },
+    {
+      "gain": 18,
+      "pv": 5,
+      "pierre": 3,
+      "bois": 3,
+      "savoir": 2,
+      "tuile": 2,
+      "type": 0,
+      "id": 18
+    },
+    {
+      "gain": 12,
+      "pv": 3,
+      "pierre": 0,
+      "bois": 1,
+      "savoir": 2,
+      "tuile": 3,
+      "type": 0,
+      "id": 19
+    },
+    {
+      "gain": 16,
+      "pv": 4,
+      "pierre": 0,
+      "bois": 3,
+      "savoir": 2,
+      "tuile": 3,
+      "type": 0,
+      "id": 20
+    },
+    {
+      "gain": 14,
+      "pv": 3,
+      "pierre": 2,
+      "bois": 2,
+      "savoir": 0,
+      "tuile": 3,
+      "type": 0,
+      "id": 21
+    },
+    {
+      "gain": 8,
+      "pv": 0,
+      "pierre": 1,
+      "bois": 0,
+      "savoir": 0,
+      "tuile": 1,
+      "type": 0,
+      "id": 22
+    },
+    {
+      "gain": 6,
+      "pv": 1,
+      "pierre": 2,
+      "bois": 0,
+      "savoir": 1,
+      "tuile": 0,
+      "type": 0,
+      "id": 23
+    },
+    {
+      "gain": 10,
+      "pv": 2,
+      "pierre": 2,
+      "bois": 0,
+      "savoir": 2,
+      "tuile": 1,
+      "type": 0,
+      "id": 24
+    },
+    {
+      "gain": 10,
+      "pv": 2,
+      "pierre": 1,
+      "bois": 2,
+      "savoir": 1,
+      "tuile": 1,
+      "type": 0,
+      "id": 25
+    },
+    {
+      "gain": 12,
+      "pv": 3,
+      "pierre": 0,
+      "bois": 3,
+      "savoir": 1,
+      "tuile": 2,
+      "type": 0,
+      "id": 26
+    },
+    {
+      "gain": 12,
+      "pv": 3,
+      "pierre": 0,
+      "bois": 2,
+      "savoir": 3,
+      "tuile": 1,
+      "type": 0,
+      "id": 27
+    },
+    {
+      "gain": 10,
+      "pv": 2,
+      "pierre": 0,
+      "bois": 2,
+      "savoir": 1,
+      "tuile": 2,
+      "type": 0,
+      "id": 28
+    },
+    {
+      "gain": 10,
+      "pv": 2,
+      "pierre": 2,
+      "bois": 1,
+      "savoir": 0,
+      "tuile": 2,
+      "type": 0,
+      "id": 29
+    },
+    {
+      "gain": 8,
+      "pv": 0,
+      "pierre": 0,
+      "bois": 1,
+      "savoir": 1,
+      "tuile": 0,
+      "type": 0,
+      "id": 30
+    },
+    {
+      "gain": 20,
+      "pv": 7,
+      "pierre": 5,
+      "bois": 3,
+      "savoir": 5,
+      "tuile": 3,
+      "type": 0,
+      "id": 31
+    },
+    {
+      "gain": 18,
+      "pv": 5,
+      "pierre": 4,
+      "bois": 0,
+      "savoir": 2,
+      "tuile": 4,
+      "type": 0,
+      "id": 32
+    },
+    {
+      "gain": 12,
+      "pv": 3,
+      "pierre": 2,
+      "bois": 1,
+      "savoir": 1,
+      "tuile": 2,
+      "type": 0,
+      "id": 33
+    },
+    {
+      "gain": 14,
+      "pv": 3,
+      "pierre": 3,
+      "bois": 0,
+      "savoir": 3,
+      "tuile": 1,
+      "type": 0,
+      "id": 34
+    }
+  ]
+}

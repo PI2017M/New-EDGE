@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="../ressources/skin/css/bootstrap-theme.css">
+  <link rel="stylesheet" href="../ressources/skin/css/bootstrap.css">
+  <script type="text/javascript" src="../ressources/skin/js/jquery-3.1.1.js"></script>
+  <script type="text/javascript" src="../ressources/skin/js/bootstrap.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- fin Bootstrap -->
+  <link rel="stylesheet" href="/ressources/Fonts/font.css">
+  <link rel="icon" type="image/png" href="../ressources/img/rocket.png" />
+  <link rel="stylesheet" href="../ressources/main.css">
+  <title>{pseudo}</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="refresh" content="3; url=/req_actualiser_lobby?pseudo={pseudo}&lobby={lobby}" />
+</head>
+
+<body>
+
+  <div class="container">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+          <a class="navbar-brand" href="#accueil"><img class="logo" src="./ressources/img/rocket.png" alt=""><div class="title">NEW EDGE</div></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img class="avatar" src="{avatar}" alt=""> {pseudo}<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Profil</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="/req_deconnexion?pseudo={pseudo}">Déconnexion</a></li>
+
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+  </div>
+
+  <div class="container">
+    <div class="main">
+      <h2>Bienvenue sur le lobby : {lobby}</h2>
+
+      <h4>{pseudo}, voici la liste des joueurs présents dans le lobby :</h4>
+      <ul>
+        {joueur}
+      </ul>
+
+      <a class="btn btn-default" href="/req_retour_accueil?pseudo={pseudo}&lobby={lobby}">Quitter lobby</a>
+      <br>{bouton}
+    </div>
+  </div>
+</body>
+
+</html>
